@@ -24,7 +24,7 @@ You can download the application here:
 
 - ✋ Real-time **hand tracking** using MediaPipe  
 - 🎥 Live webcam preview  
-- 🎯 Capture and save custom hand gestures  
+- 🎯 Save custom hand gestures  
 - ⌨️ Map gestures to keyboard inputs (`W`, `A`, `D`, `Space`, etc.)  
 - 💾 Persistent gesture bindings via JSON  
 - ⚡ Real-time keypress simulation for seamless gameplay  
@@ -88,7 +88,7 @@ gesture_config.json
 - Python  
 - MediaPipe  
 - OpenCV  
-- PyAutoGUI / keyboard input simulation  
+- Pynput / keyboard input simulation  
 
 ---
 
