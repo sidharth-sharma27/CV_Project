@@ -47,12 +47,30 @@ Easily create and manage gesture bindings:
 
 ## ⚙️ Setup (For Developers)
 
+Run the project locally without the executable:
+
 ```powershell
+# Create virtual environment
 py -3.11 -m venv .venv311
+
+# Activate environment
 .venv311\Scripts\Activate.ps1
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
+python main.py
 ```
 
+### ⚠️ Important Notes
+
+- Run all commands from the **project root directory**  
+  (the folder that contains `main.py`, `requirements.txt`, and `src/`)
+- Do **NOT** run commands from inside the `src/` folder
+- Ensure your virtual environment is activated before running
+- Make sure your **webcam is connected and accessible**
+- Good lighting improves gesture detection accuracy
 ---
 
 ## 📁 Configuration
