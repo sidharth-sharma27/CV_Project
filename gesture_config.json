@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Move Left",
+    "key": "a",
+    "pattern": {
+      "thumb": false,
+      "index": false,
+      "middle": false,
+      "ring": false,
+      "pinky": false
+    }
+  },
+  {
+    "name": "Move Right",
+    "key": "d",
+    "pattern": {
+      "thumb": true,
+      "index": true,
+      "middle": true,
+      "ring": true,
+      "pinky": true
+    }
+  },
+  {
+    "name": "Jump",
+    "key": "space",
+    "pattern": {
+      "thumb": false,
+      "index": true,
+      "middle": false,
+      "ring": false,
+      "pinky": false
+    }
+  }
+]
